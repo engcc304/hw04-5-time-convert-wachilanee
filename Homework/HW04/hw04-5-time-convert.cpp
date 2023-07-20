@@ -13,3 +13,13 @@
     Output:
         27 days = 2332800 seconds
 */
+#include <stdio.h>
+int main()
+{
+    int day = 0, sec ;
+    printf("Please Enter Day : ");
+    scanf("%d", &day) ;
+    sec = day * 86400 ;
+    printf("%d days = %d seconds", day, sec ) ;
+    return 0;
+}
